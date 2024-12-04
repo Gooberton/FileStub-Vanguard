@@ -1,2 +1,2 @@
 # FileStub-Vanguard
-Bridge between Windows files and RTC that implements Vanguard (General corruptor for windows files)
+a fork of file stub that includes Assembly-CSharp.dll in the known unity dlls template
