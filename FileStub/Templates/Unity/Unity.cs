@@ -73,7 +73,8 @@ namespace FileStub.Templates
                     it.Name.ToUpper().Contains("TERRAIN") ||
                     it.Name.ToUpper().Contains("VEHICLES") ||
                     it.Name.ToUpper().Contains("UNITYENGINE.DLL") ||
-                    it.Name.ToUpper().Contains("UNITYPLAYER.DLL")
+                    it.Name.ToUpper().Contains("UNITYPLAYER.DLL")||
+                    it.Name.ToUpper().Contains("ASSEMBLY-CSHARP.DLL")
                     ).ToArray();
 
             var allUnityEngine = allDlls.Where(it =>
